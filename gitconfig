@@ -49,3 +49,8 @@
 [user]
 	email = michel.koffimalan@gmail.com
 	name = Michel Koffi Malan
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
