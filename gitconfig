@@ -48,7 +48,7 @@
   mergeoptions = --no-edit
 [user]
 	email = michel.koffimalan@gmail.com
-	name = Michel Koffi Malan
+	name = Michel KOFFI MALAN
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
